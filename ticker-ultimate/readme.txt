@@ -2,8 +2,8 @@
 Contributors: wponlinesupport, anoopranawat, pratik-jain, patelketan, piyushpatel123
 Tags: news ticker, blog ticker, post ticker slider, ticker vertical slider, ticker horizontal slider
 Requires at least: 4.0
-Tested up to: 6.6.1
-Stable tag: 1.7.1
+Tested up to: 6.6.2
+Stable tag: 1.7.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -111,6 +111,9 @@ You can use same parameter with post ticker shortcode.
 2. Output
 
 == Changelog ==
+
+= 1.7.2 (07, Nov 2024) =
+* [*] Check compatibility with WordPress version 6.6.2
 
 = 1.7.1 (05, Aug 2024) =
 * [*] Check compatibility with WordPress version 6.6.1

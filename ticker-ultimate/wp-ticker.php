@@ -5,14 +5,14 @@ Plugin URL: https://www.essentialplugin.com/wordpress-plugin/ticker-ultimate/
 Text Domain: ticker-ultimate
 Domain Path: /languages/
 Description: Ultimate Post Ticker Plugin : Add and display horizontal or vertical ticker on your website that work with WordPress posts and Custom Post Type with the help of shortcode. Also work with Gutenberg shortcode block.
-Version: 1.7.1
+Version: 1.7.2
 Author: WP OnlineSupport, Essential Plugin
 Author URI: https://www.essentialplugin.com/wordpress-plugin/ticker-ultimate/
 Contributors: WP OnlineSupport
 */
 
 if( ! defined( 'WPTU_VERSION' ) ) {
-	define( 'WPTU_VERSION', '1.7.1' ); // Version of plugin
+	define( 'WPTU_VERSION', '1.7.2' ); // Version of plugin
 }
 
 if( ! defined( 'WPTU_POST_TYPE' ) ) {
@@ -48,11 +48,11 @@ if( ! defined( 'WPTU_SITE_LINK' ) ) {
 }
 
 if( ! defined( 'WPTU_PLUGIN_LINK_UPGRADE' ) ) {
-	define('WPTU_PLUGIN_LINK_UPGRADE', 'https://www.wponlinesupport.com/checkout/?edd_action=add_to_cart&download_id=14791&edd_options[price_id]=7&wpos_cart_flush=1&utm_source=WP&utm_medium=PostTicker&utm_campaign=Welcome-Screen'); // Plugin link
+	define('WPTU_PLUGIN_LINK_UPGRADE', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=PostTicker&utm_campaign=Welcome-Screen'); // Plugin link
 }
 
 if( ! defined( 'WPTU_PLUGIN_LINK_UNLOCK' ) ) {
-	define('WPTU_PLUGIN_LINK_UNLOCK', 'https://www.wponlinesupport.com/checkout/?edd_action=add_to_cart&download_id=14791&edd_options[price_id]=7&wpos_cart_flush=1&utm_source=WP&utm_medium=PostTicker&utm_campaign=Features-PRO'); // Plugin link
+	define('WPTU_PLUGIN_LINK_UNLOCK', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=PostTicker&utm_campaign=Features-PRO'); // Plugin link
 }
 
 /**

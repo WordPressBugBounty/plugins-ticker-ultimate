@@ -12,8 +12,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 ?>
 <div class="wrap">
 
-	<h2><?php esc_html_e( 'Ticker Ultimate', 'ticker-ultimate' ); ?></h2><br />
-
 	<style>
 		.wpos-plugin-pricing-table thead th h2{font-weight: 400; font-size: 2.4em; line-height:normal; margin:0px; color: #2ECC71;}
 		.wpos-plugin-pricing-table thead th h2 + p{font-size: 1.25em; line-height: 1.4; color: #999; margin:5px 0 5px 0;}
@@ -21,6 +19,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 		table.wpos-plugin-pricing-table{width:100%; text-align: left; border-spacing: 0; border-collapse: collapse; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
 
 		.wpos-plugin-pricing-table th, .wpos-plugin-pricing-table td{font-size:14px; line-height:normal; color:#444; vertical-align:middle; padding:12px;}
+
+		.wptu-sf-blue{color:#6c63ff; font-weight:bold;}
 
 		.wpos-plugin-pricing-table colgroup:nth-child(1) { width: 31%; border: 0 none; }
 		.wpos-plugin-pricing-table colgroup:nth-child(2) { width: 22%; border: 1px solid #ccc; }
@@ -52,6 +52,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 	</style>
 
+	<div class="wptu-black-friday-banner-wrp">
+		<a href="<?php echo esc_url( WPTU_PLUGIN_LINK_UPGRADE ); ?>" target="_blank"><img style="width: 100%;" src="<?php echo esc_url( WPTU_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
+	</div>
+
+	<h2 style="font-size: 24px; text-align: center; margin-bottom:25px;"><span class="wptu-sf-blue">Ticker Ultimate </span>Including in <span class="wptu-sf-blue">Essential Plugin Bundle</span></h2>
+
 	<div id="poststuff">
 		<div id="post-body" class="metabox-holder">
 			<div id="post-body-content">
@@ -68,7 +74,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 							<th>
 								<h2 class="wpos-epb">Premium</h2>
 								<p>Gain access to <strong>Ticker Ultimate</strong> </p>
-								<a href="<?php echo esc_url(WPTU_PLUGIN_LINK_UPGRADE); ?>" target="_blank">Try Pro For 5 Days Free</a>
+								<a href="<?php echo esc_url(WPTU_PLUGIN_LINK_UPGRADE); ?>" target="_blank">Try Pro with Back Friday Deals</a>
 							</th>	    		
 						</tr>
 					</thead>
@@ -78,7 +84,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 							<th></th>
 							<td></td>
 							<td><p>Gain access to <strong>Ticker Ultimate</strong> </p>
-							<a href="<?php echo esc_url(WPTU_PLUGIN_LINK_UPGRADE); ?>" class="wpos-button" target="_blank">Try Pro For 5 Days Free</a></td>
+							<a href="<?php echo esc_url(WPTU_PLUGIN_LINK_UPGRADE); ?>" class="wpos-button" target="_blank">Try Pro with Back Friday Deals</a></td>
 						</tr>
 					</tfoot>
 
