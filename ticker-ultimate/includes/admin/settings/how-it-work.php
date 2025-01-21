@@ -40,8 +40,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 								<tbody>
 									<tr>
 										<td>
-											<p><?php esc_html_e('Boost design and best solution for your website.', 'ticker-ultimate'); ?></p> <br/>
-											<a class="button button-primary button-orange" href="<?php echo esc_url(WPTU_PLUGIN_LINK_UNLOCK); ?>" target="_blank"><?php esc_html_e('Try Pro with Back Friday Deals', 'ticker-ultimate'); ?></a>
+											<p><?php esc_html_e('Get Designs, Optimization, Security, Backup, Migration Solutions @ one stop.', 'ticker-ultimate'); ?></p> <br/>
+											<a class="button button-primary button-orange" href="<?php echo esc_url(WPTU_PLUGIN_LINK_UNLOCK); ?>" target="_blank"><?php esc_html_e('Upgrade To PRO', 'ticker-ultimate'); ?></a>
 										</td>
 									</tr>
 								</tbody>
@@ -165,7 +165,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 								<li><?php esc_html_e( '100% Multi language', 'ticker-ultimate'); ?></li>
 							</ul>
 							<div class="upgrade-to-pro"><?php esc_html_e( 'Gain access to', 'ticker-ultimate'); ?> <strong><?php esc_html_e('Ticker Ultimate', 'ticker-ultimate'); ?></strong></div>
-							<a class="button button-primary wpos-button-full button-orange" href="<?php echo esc_url(WPTU_PLUGIN_LINK_UNLOCK); ?>" target="_blank"><?php esc_html_e('Try Pro with Back Friday Deals', 'ticker-ultimate'); ?></a>
+							<a class="button button-primary wpos-button-full button-orange" href="<?php echo esc_url(WPTU_PLUGIN_LINK_UNLOCK); ?>" target="_blank"><?php esc_html_e('Upgrade To PRO', 'ticker-ultimate'); ?></a>
 						</div><!-- .inside -->
 					</div><!-- #general -->
 				</div><!-- .meta-box-sortables -->

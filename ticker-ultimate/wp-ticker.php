@@ -5,14 +5,14 @@ Plugin URL: https://www.essentialplugin.com/wordpress-plugin/ticker-ultimate/
 Text Domain: ticker-ultimate
 Domain Path: /languages/
 Description: Ultimate Post Ticker Plugin : Add and display horizontal or vertical ticker on your website that work with WordPress posts and Custom Post Type with the help of shortcode. Also work with Gutenberg shortcode block.
-Version: 1.7.2
+Version: 1.7.3
 Author: WP OnlineSupport, Essential Plugin
 Author URI: https://www.essentialplugin.com/wordpress-plugin/ticker-ultimate/
 Contributors: WP OnlineSupport
 */
 
 if( ! defined( 'WPTU_VERSION' ) ) {
-	define( 'WPTU_VERSION', '1.7.2' ); // Version of plugin
+	define( 'WPTU_VERSION', '1.7.3' ); // Version of plugin
 }
 
 if( ! defined( 'WPTU_POST_TYPE' ) ) {

@@ -20,9 +20,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 	</strong>
 </div>-->
 
-<div class="wptu-black-friday-banner-wrp">
-	<a href="<?php echo esc_url( WPTU_PLUGIN_LINK_UNLOCK ); ?>" target="_blank"><img style="width: 100%;" src="<?php echo esc_url( WPTU_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
-</div>
+<!-- <div class="wptu-black-friday-banner-wrp">
+	<a href="<?php // echo esc_url( WPTU_PLUGIN_LINK_UNLOCK ); ?>" target="_blank"><img style="width: 100%;" src="<?php // echo esc_url( WPTU_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
+</div> -->
+
+<strong style="color:#2ECC71; font-weight: 700;"><?php echo sprintf( __( ' <a href="%s" target="_blank" style="color:#2ECC71;">Upgrade To Pro</a> and Get Designs, Optimization, Security, Backup, Migration Solutions @ one stop.', 'ticker-ultimate'), WPTU_PLUGIN_LINK_UNLOCK); ?></strong>
+
 <table class="form-table wptu-metabox-table">
 	<tbody>
 

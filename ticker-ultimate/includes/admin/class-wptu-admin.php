@@ -40,7 +40,7 @@ class Wptu_Admin {
 		add_submenu_page( 'edit.php?post_type='.WPTU_POST_TYPE, __( 'How it works, our plugins and offers', 'ticker-ultimate' ), __( 'How It Works', 'ticker-ultimate' ), 'manage_options', 'wptu-designs', array($this, 'wptu_designs_page') );
 
 		// Premium feature page
-		add_submenu_page( 'edit.php?post_type='.WPTU_POST_TYPE, __( 'Upgrade To Pro  - Ticker Ultimate', 'ticker-ultimate' ), '<span style="color:#ff2700">'.__( 'Upgrade To PRO – Early Back Friday Deals', 'ticker-ultimate' ).'</span>', 'manage_options', 'wptu-premium', array( $this, 'wptu_premium_page' ));
+		add_submenu_page( 'edit.php?post_type='.WPTU_POST_TYPE, __( 'Upgrade To Pro  - Ticker Ultimate', 'ticker-ultimate' ), '<span style="color:#2ECC71">'.__( 'Upgrade To PRO', 'ticker-ultimate' ).'</span>', 'manage_options', 'wptu-premium', array( $this, 'wptu_premium_page' ));
 	}
 
 	/**
