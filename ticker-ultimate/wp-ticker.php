@@ -1,18 +1,25 @@
 <?php
-/*
-Plugin Name: Post Ticker Ultimate
-Plugin URL: https://www.essentialplugin.com/wordpress-plugin/ticker-ultimate/
-Text Domain: ticker-ultimate
-Domain Path: /languages/
-Description: Ultimate Post Ticker Plugin : Add and display horizontal or vertical ticker on your website that work with WordPress posts and Custom Post Type with the help of shortcode. Also work with Gutenberg shortcode block.
-Version: 1.7.3
-Author: WP OnlineSupport, Essential Plugin
-Author URI: https://www.essentialplugin.com/wordpress-plugin/ticker-ultimate/
-Contributors: WP OnlineSupport
+/**
+ * Plugin Name: Post Ticker Ultimate
+ * Plugin URL: https://www.essentialplugin.com/wordpress-plugin/ticker-ultimate/
+ * Text Domain: ticker-ultimate
+ * Domain Path: /languages/
+ * Description: Ultimate Post Ticker Plugin : Add and display horizontal or vertical ticker on your website that work with WordPress posts and Custom Post Type with the help of shortcode. Also work with Gutenberg shortcode block.
+ * Version: 1.7.4
+ * Author: Essential Plugin
+ * Author URI: https://www.essentialplugin.com
+ * Contributors: WP OnlineSupport
+ * 
+ * @package Post Ticker Ultimate
+ * @author Essential Plugin
 */
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
+
 if( ! defined( 'WPTU_VERSION' ) ) {
-	define( 'WPTU_VERSION', '1.7.3' ); // Version of plugin
+	define( 'WPTU_VERSION', '1.7.4' ); // Version of plugin
 }
 
 if( ! defined( 'WPTU_POST_TYPE' ) ) {
@@ -34,14 +41,6 @@ if( ! defined( 'WPTU_CAT' ) ) {
 if( ! defined( 'WPTU_META_PREFIX' ) ) {
 	define( 'WPTU_META_PREFIX', '_wptu_' ); // Plugin metabox prefix
 }
-
-// if( ! defined( 'WPTU_PLUGIN_LINK_UNLOCK' ) ) {
-// 	define('WPTU_PLUGIN_LINK_UNLOCK','https://www.essentialplugin.com/essential-plugin-bundle-pricing/?utm_source=WP&utm_medium=PostTicker&utm_campaign=Features-PRO'); // Plugin link
-// }
-
-// if( ! defined( 'WPTU_PLUGIN_LINK_UPGRADE' ) ) {
-// 	define('WPTU_PLUGIN_LINK_UPGRADE','https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=PostTicker&utm_campaign=Upgrade-PRO'); // Plugin Check link
-// }
 
 if( ! defined( 'WPTU_SITE_LINK' ) ) {
     define('WPTU_SITE_LINK', 'https://www.essentialplugin.com'); // Plugin link

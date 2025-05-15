@@ -221,7 +221,7 @@ if ( !defined( 'ABSPATH' ) ) {
 								</a>
 							</div>
 							<div class="small-12 medium-3 cell" style="padding-top: 10px;">
-								<a href="https://profiles.wordpress.org/wponlinesupport/#content-plugins" target="_blank" style="display: block;">
+								<a href="https://profiles.wordpress.org/essentialplugin/#content-plugins" target="_blank" style="display: block;">
 									<img src="<?php echo esc_url(WPTU_URL); ?>/assets/images/wordpress-icon-logo.png" width="150">
 								<br>
 								<span style="color:#555">WordPress.org Reviews</span><br>

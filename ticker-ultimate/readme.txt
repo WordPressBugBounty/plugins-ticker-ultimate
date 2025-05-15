@@ -1,13 +1,13 @@
 === Post Ticker Ultimate ===
-Contributors: wponlinesupport, anoopranawat, pratik-jain, patelketan, piyushpatel123
+Contributors: essentialplugin
 Tags: news ticker, blog ticker, post ticker slider, ticker vertical slider, ticker horizontal slider
 Requires at least: 4.0
-Tested up to: 6.7.1
-Stable tag: 1.7.3
+Tested up to: 6.8.1
+Stable tag: 1.7.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Add and display horizontal or vertical post ticker on your website that work with WordPress posts and Custom Post Type with the help of shortcode. Also work with Gutenberg shortcode block.
+Add and display horizontal or vertical post ticker on website that work with WordPress posts with the help of shortcode or Gutenberg block.
 
 == Description ==
 
@@ -111,6 +111,9 @@ You can use same parameter with post ticker shortcode.
 2. Output
 
 == Changelog ==
+
+= 1.7.4 (15, May 2025) =
+* [*] Check compatibility with WordPress version 6.8.1
 
 = 1.7.3 (21, January 2025) =
 * [*] Check compatibility to WordPress version 6.7.1
