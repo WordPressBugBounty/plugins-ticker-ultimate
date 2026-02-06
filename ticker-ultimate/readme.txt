@@ -2,8 +2,8 @@
 Contributors: essentialplugin
 Tags: news ticker, blog ticker, post ticker slider, ticker vertical slider, ticker horizontal slider
 Requires at least: 4.0
-Tested up to: 6.8.1
-Stable tag: 1.7.4
+Tested up to: 6.8.3
+Stable tag: 1.7.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -111,6 +111,12 @@ You can use same parameter with post ticker shortcode.
 2. Output
 
 == Changelog ==
+
+= 1.7.6 (17, Nov 2025) =
+* [*] Fixed code conflict issue affecting widget saving.
+
+= 1.7.5 (12, Nov 2025) =
+* [*] Check compatibility with WordPress version 6.8.3
 
 = 1.7.4 (15, May 2025) =
 * [*] Check compatibility with WordPress version 6.8.1

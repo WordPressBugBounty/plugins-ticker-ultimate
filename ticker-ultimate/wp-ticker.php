@@ -1,13 +1,13 @@
 <?php
 /**
  * Plugin Name: Post Ticker Ultimate
- * Plugin URL: https://www.essentialplugin.com/wordpress-plugin/ticker-ultimate/
+ * Plugin URL: https://essentialplugin.com/wordpress-plugin/ticker-ultimate/
  * Text Domain: ticker-ultimate
  * Domain Path: /languages/
  * Description: Ultimate Post Ticker Plugin : Add and display horizontal or vertical ticker on your website that work with WordPress posts and Custom Post Type with the help of shortcode. Also work with Gutenberg shortcode block.
- * Version: 1.7.4
+ * Version: 1.7.6
  * Author: Essential Plugin
- * Author URI: https://www.essentialplugin.com
+ * Author URI: https://essentialplugin.com
  * Contributors: WP OnlineSupport
  * 
  * @package Post Ticker Ultimate
@@ -18,40 +18,40 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
 
-if( ! defined( 'WPTU_VERSION' ) ) {
-	define( 'WPTU_VERSION', '1.7.4' ); // Version of plugin
+if ( ! defined( 'WPTU_VERSION' ) ) {
+	define( 'WPTU_VERSION', '1.7.6' ); // Version of plugin
 }
 
-if( ! defined( 'WPTU_POST_TYPE' ) ) {
+if ( ! defined( 'WPTU_POST_TYPE' ) ) {
 	define( 'WPTU_POST_TYPE', 'wptu_ticker' ); // Plugin post type
 }
 
-if( ! defined( 'WPTU_DIR' ) ) {
+if ( ! defined( 'WPTU_DIR' ) ) {
 	define( 'WPTU_DIR', dirname( __FILE__ ) ); // Plugin dir
 }
 
-if( ! defined( 'WPTU_URL' ) ) {
+if ( ! defined( 'WPTU_URL' ) ) {
 	define( 'WPTU_URL', plugin_dir_url( __FILE__ ) ); // Plugin url
 }
 
-if( ! defined( 'WPTU_CAT' ) ) {
+if ( ! defined( 'WPTU_CAT' ) ) {
 	define( 'WPTU_CAT', 'wptu-ticker-category' ); // Plugin category name
 }
 
-if( ! defined( 'WPTU_META_PREFIX' ) ) {
+if ( ! defined( 'WPTU_META_PREFIX' ) ) {
 	define( 'WPTU_META_PREFIX', '_wptu_' ); // Plugin metabox prefix
 }
 
-if( ! defined( 'WPTU_SITE_LINK' ) ) {
-    define('WPTU_SITE_LINK', 'https://www.essentialplugin.com'); // Plugin link
+if ( ! defined( 'WPTU_SITE_LINK' ) ) {
+    define('WPTU_SITE_LINK', 'https://essentialplugin.com'); // Plugin link
 }
 
-if( ! defined( 'WPTU_PLUGIN_LINK_UPGRADE' ) ) {
-	define('WPTU_PLUGIN_LINK_UPGRADE', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=PostTicker&utm_campaign=Welcome-Screen'); // Plugin link
+if ( ! defined( 'WPTU_PLUGIN_LINK_UPGRADE' ) ) {
+	define('WPTU_PLUGIN_LINK_UPGRADE', 'https://essentialplugin.com/pricing/?utm_source=WP&utm_medium=PostTicker&utm_campaign=Welcome-Screen'); // Plugin link
 }
 
-if( ! defined( 'WPTU_PLUGIN_LINK_UNLOCK' ) ) {
-	define('WPTU_PLUGIN_LINK_UNLOCK', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=PostTicker&utm_campaign=Features-PRO'); // Plugin link
+if ( ! defined( 'WPTU_PLUGIN_LINK_UNLOCK' ) ) {
+	define('WPTU_PLUGIN_LINK_UNLOCK', 'https://essentialplugin.com/pricing/?utm_source=WP&utm_medium=PostTicker&utm_campaign=Features-PRO'); // Plugin link
 }
 
 /**
@@ -117,7 +117,7 @@ function wptu_ticker_install() {
 	// IMP to call to generate new rules
 	flush_rewrite_rules();
 
-	if( is_plugin_active('ticker-ultimate-pro/wptu-ticker-ultimate-pro.php') ){
+	if ( is_plugin_active('ticker-ultimate-pro/wptu-ticker-ultimate-pro.php') ){
 	 add_action('update_option_active_plugins', 'deactivate_premium_version_wptu');
 	}
 
